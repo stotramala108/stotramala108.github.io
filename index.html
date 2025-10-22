@@ -3,17 +3,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Stotra List of Hindu Gods & Goddesses</title>
+  <title>🕉️ Stotramala - Namavali & Stotra Index</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
-    iframe {
-      width: 100%;
-      height: 90vh;
-      border: none;
+    body {
+      font-family: "Noto Sans Devanagari", "Noto Serif", system-ui, sans-serif;
+      background: #fffdf8;
+      color: #333;
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+    h1 {
+      text-align: center;
+      color: #a83c0f;
+      margin-bottom: 1.5rem;
+    }
+    h2, h3 {
+      color: #6d2008;
+      border-bottom: 1px solid #e2c9a0;
+      padding-bottom: 0.3rem;
+    }
+    a {
+      color: #a83c0f;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      background: #fffaf1;
+      border: 1px solid #f2e0c0;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1.2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: #777;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>🕉️ Hindu Stotras</h1>
-  <iframe src="https://github.com/stotramala108/stotramala108.github.io/blob/main/readme.md"></iframe>
+  <h1>🕉️ Stotramala Namavali Index</h1>
+  <div id="readme" class="content"></div>
+
+  <footer>
+    <p>✨ Meditation at Play — by <a href="https://stotramala.com">Stotramala.com</a></p>
+  </footer>
+
+  <script>
+    // Fetch and render your README.md content beautifully
+    fetch("https://raw.githubusercontent.com/stotramala108/stotramala108.github.io/blob/main/readme.md")
+      .then(res => res.text())
+      .then(md => {
+        const html = marked.parse(md);
+        document.getElementById("readme").innerHTML = html;
+
+        // Optional: Wrap each section in a card
+        document.querySelectorAll("#readme h1, #readme h2, #readme h3").forEach(el => {
+          const wrapper = document.createElement("div");
+          wrapper.className = "section";
+          el.parentNode.insertBefore(wrapper, el);
+          wrapper.appendChild(el);
+          let next = el.nextSibling;
+          while (next && next.tagName !== "H1" && next.tagName !== "H2" && next.tagName !== "H3") {
+            const move = next;
+            next = next.nextSibling;
+            wrapper.appendChild(move);
+          }
+        });
+      });
+  </script>
 </body>
 </html>
