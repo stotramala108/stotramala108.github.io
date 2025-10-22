@@ -1,14 +1,14 @@
 
-## 🕉️ [Anantha Padmanabha Swamy](https://stotramala.com/anantha-padmanabha-swamy/)
+## 🕉️ [Anantha Padmanabha Swamy](https://stotramala.com/anantha-padmanabha-swamy-stotramala)
 
 * [श्री अनंत पद्मनाभ स्वामी अष्टोत्तर शतनामावली (भगवान राम के १०८ नाम) \- Shri Anantha Padmanabha Swamy Ashtottara Shatanamavali (108 Names) Hindi Lyrics](https://stotramala.com/anantha-padmanabha-swamy-108-names-ashtottara-shatanamavali-meaning-sanskrit-lyrics-pdf-download)
 
-## 🕉️ [Annapurna](https://stotramala.com/annapurna/)
+## 🕉️ [Annapurna](https://stotramala.com/annapurna-stotramala/)
 
 * [देवी अन्नपूर्णा अष्टोत्तर शतनामावली (१०८ नाम) \- Devi Annapurna Ashtottara Shatanamavali (108 Names) Hindi Lyrics](https://stotramala.com/annapurna-108-names-parvati-ashtottara-shatanamavali-meaning-sanskrit-lyrics-pdf-download)  
 * [देवी अन्नपूर्णा अष्टोत्तरशतनाम स्तोत्र (१०८ नाम) \- Devi Annapurna Ashtottara Shatanama Stotram (108 Names) Hindi Lyrics](https://stotramala.com/annapurna-108-names-ashtottara-shatanama-stotram-meaning-sanskrit-lyrics-pdf-download)
 
-## 🕉️ [Ashta Dikpala](https://stotramala.com/ashta-dikpala/)
+## 🕉️ [Ashta Dikpala](https://stotramala.com/ashta-dikpala-stotramala/)
 
 * [अर्थ सहित अष्ट दिक्पाल स्तोत्र \- Ashta Dikpalakas Stotram Hindi Lyrics with Meaning for Gods of 8 Cardinal Directions](https://stotramala.com/ashtadikpalakas-stotram-meaning-gods-of-8-directions-sanskrit-lyrics-pdf-download)
 
