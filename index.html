@@ -3,79 +3,160 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🕉️ Stotramala - Namavali & Stotra Index</title>
+  <title>Hindu Stotra List</title>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
     body {
       font-family: "Noto Sans Devanagari", "Noto Serif", system-ui, sans-serif;
       background: #fffdf8;
       color: #333;
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: 0 auto;
-      line-height: 1.7;
+      margin: 0;
+      padding: 0;
     }
-    h1 {
+
+    header {
       text-align: center;
+      background: #fff5e1;
+      padding: 1.5rem 1rem;
       color: #a83c0f;
-      margin-bottom: 1.5rem;
-    }
-    h2, h3 {
-      color: #6d2008;
+      font-size: 2rem;
+      font-weight: bold;
       border-bottom: 1px solid #e2c9a0;
-      padding-bottom: 0.3rem;
     }
-    a {
-      color: #a83c0f;
-      text-decoration: none;
-      font-weight: 500;
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 2rem;
     }
-    a:hover {
-      text-decoration: underline;
+
+    .left-column {
+      flex: 2;
+      min-width: 300px;
     }
+
+    .right-column {
+      flex: 1;
+      min-width: 200px;
+      background: #fffaf1;
+      border: 1px solid #f2e0c0;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      height: fit-content;
+    }
+
     .section {
       background: #fffaf1;
       border: 1px solid #f2e0c0;
       border-radius: 12px;
       padding: 1rem;
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.5rem;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
+
+    h2 {
+      color: #6d2008;
+      border-bottom: 1px solid #e2c9a0;
+      padding-bottom: 0.3rem;
+    }
+
+    a {
+      color: #a83c0f;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .game-list a {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
     footer {
       text-align: center;
-      margin-top: 2rem;
+      margin: 2rem 0;
       color: #777;
       font-size: 0.9rem;
+    }
+
+    @media(max-width: 800px) {
+      .container {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>🕉️ Stotramala Namavali Index</h1>
-  <div id="readme" class="content"></div>
+  <header>Hindu Stotra List</header>
+  <div class="container">
+    <div class="left-column" id="readme"></div>
+
+    <div class="right-column">
+      <h2>Vedic Astrology Games</h2>
+      <div class="game-list">
+        <a href="https://stotramala.com/games/11-karana-panchang-vedic-astrology-word-search-puzzle-game-sanskrit-english-play-free-online/">11 Karana Panchang - Vedic Astrology</a>
+        <a href="https://stotramala.com/games/27-names-yoga-panchang-word-search-puzzle-game-sanskrit-play-free-online/">27 Names Yoga Panchang</a>
+        <a href="https://stotramala.com/games/27-names-nakshatra-namavali-word-search-puzzle-game-sanskrit-play-free-online/">27 Names Nakshatra Namavali</a>
+      </div>
+
+      <h2>All Other Games</h2>
+      <div class="game-list">
+        <a href="https://stotramala.com/games/12-names-aditya-dwadash-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">12 Names Aditya Dwadash Namavali</a>
+        <a href="https://stotramala.com/games/12-names-hanuman-dwadash-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">12 Names Hanuman Dwadash Namavali</a>
+        <a href="https://stotramala.com/games/12-names-jyotirlinga-dwadash-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">12 Names Jyotirlinga Dwadash Namavali</a>
+        <a href="https://stotramala.com/games/12-names-nagini-dwadash-namavali-mansa-devi-word-search-puzzle-game-english-sanskrit-play-free-online/">12 Names Nagini Dwadash Namavali</a>        
+        
+        <a href="https://stotramala.com/games/12-names-sun-surya-dwadash-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">12 Names Sun/Surya Dwadash Namavali</a>
+        <a href="https://stotramala.com/games/12-names-saraswati-dwadash-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">12 Names Saraswati Dwadash Namavali</a>
+        <a href="https://stotramala.com/games/12-names-varahi-devi-dwadash-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">12 Names Varahi Devi Dwadash Namavali</a>        
+        <a href="https://stotramala.com/games/14-samudra-manthan-ratna-churning-ocean-gems-word-search-puzzle-game-english-sanskrit-play-free-online/">Samudra Manthan Gems - Churning of Ocean</a>
+        <a href="https://stotramala.com/games/14-lokas-hinduism-puranas-vyahrti-patala-word-search-puzzle-game-english-sanskrit-play-free-online/">14 Lokas in Hinduism</a>
+        <a href="https://stotramala.com/games/16-kala-chandra-moon-lunar-phases-word-search-puzzle-game-english-sanskrit-play-free-online/">16 Kala Chandra Moon Phases</a>
+        <a href="https://stotramala.com/games/16-nitya-devi-shodasha-kala-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">16 Nitya Devi Shodasha Kala Namavali</a>
+        <a href="https://stotramala.com/games/16-vishnu-shodasha-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">16 Vishnu Shodasha Namavali</a>
+        <a href="https://stotramala.com/games/16-vishnu-weapons-shodasha-ayudha-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">16 Vishnu Weapons Shodasha Ayudha Namavali</a>      
+        <a href="https://stotramala.com/games/18-sons-names-lakshmi-vishnu-santan-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">18 Sons Names Lakshmi Vishnu Santan Namavali</a>        
+        <a href="https://stotramala.com/games/18-mahapurana-names-word-search-puzzle-game-english-sanskrit-play-free-online/">18 Mahapurana Names</a>
+        <a href="https://stotramala.com/games/21-names-rishi-saptarishi-word-search-puzzle-game-english-sanskrit-play-free-online/">21 Names Rishi Saptarishi</a>
+        <a href="https://stotramala.com/games/21-names-ganesha-ganapati-ekavimshati-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">21 Names Ganesha Ganapati Ekavimshati Namavali</a>
+        <a href="https://stotramala.com/games/24-names-krishna-chaturvinshati-namavali-word-search-puzzle-game-sanskrit-play-free-online/">24 Names Krishna Chaturvinshati Namavali</a>        
+        <a href="https://stotramala.com/games/25-names-lalita-devi-tripura-sundari-panchavimshati-namavali-word-search-puzzle-game-sanskrit-english-play-free-online/">25 Names Lalita Devi Tripura Sundari Panchavimshati Namavali</a>
+        <a href="https://stotramala.com/games/32-names-ganesha-ganapati-dwatrimsha-namavali-word-search-puzzle-game-english-sanskrit-play-free-online/">32 Names Ganesha Ganapati Dwatrimsha Namavali</a>
+        <a href="https://stotramala.com/games/shri-yantra-color-quiz-interactive-draw-learn-original-shree-chakra-symbol-secrets-lalita-tripura-sundari/">Shri Yantra Color Quiz</a>
+        <a href="https://stotramala.com/games/32-names-durga-dvatrimshat-namavali-word-search-puzzle-game-sanskrit-play-free-online/">32 Names Durga Dvatrimshat Namavali</a>
+      </div>
+    </div>
+  </div>
 
   <footer>
-    <p>✨ Meditation at Play — by <a href="https://stotramala.com">Stotramala.com</a></p>
+    <p>✨<a href="https://stotramala.com">Meditation at Play — by Stotramala</a></p>
   </footer>
 
   <script>
-    // Fetch and render your README.md content beautifully
     fetch("https://raw.githubusercontent.com/stotramala108/stotramala108.github.io/main/readme.md")
       .then(res => res.text())
       .then(md => {
         const html = marked.parse(md);
-        document.getElementById("readme").innerHTML = html;
+        const readmeDiv = document.getElementById("readme");
+        readmeDiv.innerHTML = html;
 
-        // Optional: Wrap each section in a card
-        document.querySelectorAll("#readme h1, #readme h2, #readme h3").forEach(el => {
-          const wrapper = document.createElement("div");
-          wrapper.className = "section";
-          el.parentNode.insertBefore(wrapper, el);
-          wrapper.appendChild(el);
-          let next = el.nextSibling;
-          while (next && next.tagName !== "H1" && next.tagName !== "H2" && next.tagName !== "H3") {
-            const move = next;
-            next = next.nextSibling;
-            wrapper.appendChild(move);
+        const children = Array.from(readmeDiv.children);
+        let sectionWrapper = null;
+        children.forEach(el => {
+          if (["H1","H2","H3"].includes(el.tagName)) {
+            sectionWrapper = document.createElement("div");
+            sectionWrapper.className = "section";
+            el.parentNode.insertBefore(sectionWrapper, el);
+            sectionWrapper.appendChild(el);
+          } else if (sectionWrapper) {
+            sectionWrapper.appendChild(el);
           }
         });
       });
